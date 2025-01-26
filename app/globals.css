@@ -103,7 +103,7 @@ header div ul a:hover {
 }
 
 .hero {
-  @apply relative  bg-[url('/assets/images/hero.gif')] max-h-[100vh] md:h-[95vh] lg:h-[100vh]  xl:h-[95vh] 2xl:h-[99vh] bg-cover bg-no-repeat bg-center bg-fixed;
+  @apply relative  bg-[url('/assets/images/hero.gif')] max-h-[100vh] md:min-h-[80vh] lg:min-h-[80vh]  xl:h-[95vh] 2xl:h-[99vh] bg-cover bg-no-repeat bg-center bg-fixed;
 }
 
 .overlay {
@@ -111,7 +111,7 @@ header div ul a:hover {
 }
 
 .hero-content {
-  @apply text-white pt-12 md:gap-4  z-10 justify-between relative grid xl:flex 2xl:place-items-center w-[90%] py-8 md:pt-8 lg:pt-16 lg:pb-20  xl:pt-24 xl:gap-12  md:px-0 md:w-[80%] xl:w-[85%] mx-auto md:my-auto h-[80%];
+  @apply text-white pt-12 md:gap-4  z-10 justify-between relative grid xl:flex 2xl:place-items-center w-[90%] py-8 md:pt-24 lg:pt-6 lg:pb-20  xl:pt-24 xl:gap-12  md:px-0 md:w-[80%] xl:w-[85%] mx-auto md:my-auto h-[80%] md:h-auto lg:mt-28;
 }
 .hero-content h1 {
   @apply text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem] 2xl:text-[4.5rem] font-bold tracking-wide xl:border-r md:pr-8 xl:pr-8;
