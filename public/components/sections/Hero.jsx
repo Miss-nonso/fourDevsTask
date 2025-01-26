@@ -15,7 +15,8 @@ const Hero = () => {
           </div>
           <div>
             <p>
-              Delivering world-class software development services tailored to
+              Delivering world-class software development services tailored to{" "}
+              <br />
               your business needs.
             </p>
 
