@@ -118,7 +118,7 @@ export const socialIcons = [
 
 export const footerLinks = [
   // { text: "HOME", href: "#" },
-  { text: "SERVIVES", href: "#services" },
+  { text: "SERVICES", href: "#services" },
   { text: "ABOUT", href: "#about" },
   { text: "PORTFOLIO", href: "#portfolio" },
   { text: "CONTACT", href: "#contact" },
